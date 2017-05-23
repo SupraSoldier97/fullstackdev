@@ -1,7 +1,7 @@
 import urllib
 
 def read_text():
-    quotes = open("/Users/zachpeeler/Desktop/curse.rtf")
+    quotes = open("/Users/username/Desktop/curse.rtf")
     contents_of_file = quotes.read()
     print(contents_of_file)
     quotes.close()
