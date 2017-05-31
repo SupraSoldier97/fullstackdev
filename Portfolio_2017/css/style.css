@@ -1,0 +1,58 @@
+[class*="zocial-android"]:before {
+  color: #a4c639;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  width: .5em;
+  margin-top: 30px;
+}
+
+[class*="zocial-linkedin"]:before {
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  width: .5em;
+  margin-top: 30px;
+}
+
+div#social a {
+  margin: 0 1em 0 0;
+  font-size: 2.5em;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+
+
+body{
+	font-family: 'Oxygen', sans-serif;
+	color: black;
+	font-weight: 100;
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+    border: 2px solid #000;
+}
+
+p {
+	font-style: italic;
+}
+
+.text-muted {
+	color: #615c65;
+}
+
+.text-thin {
+	font-weight: normal;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Design Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:100, 300" rel="stylesheet">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <header class="row">
+            <div class="col-md-6" id="social">
+                <a href="https://www.github.com/suprasoldier97" class="zocial-android">
+                </a>
+                <a href="https://www.linkedin.com/in/zachareypeeler" class="zocial-linkedin">
+                </a>
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title-super text-thin">Zach Peeler</h1>
+                <h4>Front End Dev</h4>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <section class="row">
+            <div class="col-md-12">
+                <source media="(min-width: 750px)" srcset="images/zen_large_2x.jpg 2x, images/zen_large_1x" />
+                <source media="(min-width: 500px)" srcset="images/zen_medium.jpg" />
+                <img src="images/zen_small.jpg" alt="Bamboo sticks">
+            </div>
+        </section>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <section class="row text-center">
+            <div class="col-md-4">
+                <picture>
+                    <source media="(min-width: 750px)" srcset="images/mountains_large_2x.jpg 2x, images/mountains_large_1x.jpg" />
+                    <source media="(min-width: 500px)" srcset="images/mountains_medium.jpg" />
+                    <img class="img-responsive" src="images/mountains_small.jpg" data-toggle="modal" data-target="#pow" alt="Mountains">
+                </picture>
+                <h3 class="text-uppercase">Appify</h3>
+                <p>http://www.github.com/udacity/appify</p>
+            </div>
+            <div class="col-md-4">
+                <picture>
+                    <source media="(min-width: 750px)" srcset="images/beach_large_2x.jpg 2x, images/beach_large_1x.jpg" />
+                    <source media="(min-width: 500px)" srcset="images/beach_medium.jpg" />
+                    <img class="img-responsive" src="images/beach_small.jpg" data-toggle="modal" data-target="#pow" alt="Beach">
+                </picture>
+                <h3 class="text-uppercase">Sunflower</h3>
+                <p>http://www.github.com/Sunflower</p>
+            </div>
+            <div class="col-md-4">
+                <picture>
+                    <source media="(min-width: 750px)" srcset="images/forest_large_2x.jpeg 2x, images/forest_large_1x.jpg" />
+                    <source media="(min-width: 500px)" srcset="images/forest_medium.jpg" />
+                    <img class="img-responsive" src="images/forest_small.jpg" data-toggle="modal" data-target="#pow" alt="Forest">
+                </picture>
+                <h3 class="text-uppercase">Bokeh</h3>
+                <p>http://www.github.com/Bokeh</p>
+            </div>
+        </section>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="pow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Pop Up Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placekitten.com/500/600" alt="Kitten"> This was my first project in the HTML and CSS class. I was able to construct a webpage and learn more about Bootstrap as well as use javascript to make my webpage interactive.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript scripts -->
+    <script src="js/jQuery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
