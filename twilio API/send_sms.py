@@ -1,12 +1,12 @@
 from twilio.rest import TwilioRestClient
 
 # Your Account SID from twilio.com/console
-account = "ACee5f4e83c304de04e7eb814bf598d931"
+account = "your_SID"
 # Your Auth Token from twilio.com/console
-token = "1f3c9ef93e5bef8512880706c4520915"
+token = "your_token"
 client = TwilioRestClient(account, token)
 
-message = client.messages.create(to="+14086633289", from_="+14087695859",
+message = client.messages.create(to="+your_number", from_="+other_number",
     body="Hello from Python!")
 
 
