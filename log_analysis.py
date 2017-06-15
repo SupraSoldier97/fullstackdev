@@ -24,11 +24,11 @@ def execute_query(query):
 
 def pop_posts():
     """Returns top three articles with most views in descending order"""
-    query = """SELECT title, count(*) as views \
-      FROM articles a, log l \
-      WHERE a.slug=substring(l.path, 10) \
-      GROUP BY title \
-      ORDER BY views DESC LIMIT 3;"""
+    query = """SELECT title, count(*) as views
+    FROM articles a, log l
+    WHERE a.slug=substring(l.path, 10)
+    GROUP BY title 
+    ORDER BY views DESC LIMIT 3;"""
     results = execute_query(query)
     print("Most popular articles:")
     for (title, count) in results:
